@@ -10,7 +10,7 @@ import { NotFound } from '../components/ui/NotFound';
 export const AppRouter = () => {
     return (
         <Router>
-            <div>
+            <div className="min-vh-100">
                 <Switch>
                     <Route exact path="/" component={HomePage} />
                     <Route component={NotFound} />

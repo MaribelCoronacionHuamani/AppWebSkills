@@ -16,3 +16,39 @@ ul {
 .fw-400 {
   font-weight: 400;
 }
+
+.color-sec {
+  color: #00629B;
+}
+
+.tarjeta {
+  width: 250px;
+}
+
+/*responsive*/
+
+@media (max-width: 576px) {
+  h5 {
+    font-size: 5px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  h5 {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  
+}
+
+@media (max-width: 1400px) {
+  
+}
