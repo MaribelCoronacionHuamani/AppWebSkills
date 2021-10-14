@@ -4,6 +4,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 /*utilities*/
 .bg-ieee {
   background-color: #002855;
