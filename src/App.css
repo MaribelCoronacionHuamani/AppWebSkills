@@ -31,6 +31,26 @@ ul {
   height: 400px;
 }
 
+.fecha-tarjeta {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  width: 30%;
+  top: -20px;
+  margin-bottom: -55px;
+  background-color: #00629B;
+}
+
+.btn-rm {
+  color: #00629B !important;
+}
+
+.btn-rm:hover {
+  color: #fff!important;
+  background-color: #00629B !important;
+  border-color: #00629B !important;
+}
+
 /*responsive*/
 
 @media (max-width: 576px) {
