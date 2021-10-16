@@ -22,7 +22,13 @@ ul {
 }
 
 .tarjeta {
-  width: 250px;
+  width: 275px;
+}
+
+
+/*homepage*/
+.img-slider {
+  height: 400px;
 }
 
 /*responsive*/
@@ -30,6 +36,10 @@ ul {
 @media (max-width: 576px) {
   h5 {
     font-size: 5px !important;
+  }
+
+  .icons-footer {
+    width: 75% !important;
   }
 }
 
@@ -46,7 +56,9 @@ ul {
 }
 
 @media (max-width: 1200px) {
-  
+  .icons-footer {
+    width: 50%;
+  }
 }
 
 @media (max-width: 1400px) {
