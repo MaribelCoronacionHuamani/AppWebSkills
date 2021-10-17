@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../../App.css';
 import logocs from '../../assets/logocs.png';
 import logoieee from '../../assets/logoieee.png';
@@ -36,7 +37,13 @@ export const Navbar = () => {
                     </ul>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link active text-white" aria-current="page" href="#">Contáctanos</a>
+                        <NavLink
+                            className="nav-link active text-white"
+                            exact
+                            to="/contacto"
+                        >
+                            Contáctanos
+                        </NavLink>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link text-white" href="#">FAQS</a>
