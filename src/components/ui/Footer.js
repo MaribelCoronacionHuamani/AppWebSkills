@@ -11,11 +11,11 @@ export const Footer = () => {
             </ul>
         </footer>*/
         <footer className="bg-ieee mt-5 py-5">
-            <div class="icons-container">
-                <a href="#" class="social-media-icon"><i class='bx bxl-facebook'></i></a>
-                <a href="#" class="social-media-icon"><i class='bx bxl-google'></i></a>
-                <a href="#" class="social-media-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="#" class="social-media-icon"><i class='bx bxl-instagram'></i></a>
+            <div className="icons-container">
+                <a href="#" className="social-media-icon"><i className='bx bxl-facebook'></i></a>
+                <a href="#" className="social-media-icon"><i className='bx bxl-google'></i></a>
+                <a href="#" className="social-media-icon"><i className='bx bxl-linkedin'></i></a>
+                <a href="#" className="social-media-icon"><i className='bx bxl-instagram'></i></a>
             </div>
         </footer>
     )
