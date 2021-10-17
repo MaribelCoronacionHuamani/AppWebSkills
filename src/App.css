@@ -8,6 +8,10 @@ ul {
   list-style: none;
 }
 
+textarea {
+  resize: none;
+  height: 128px;
+}
 /*utilities*/
 .bg-ieee {
   background-color: #002855;
@@ -15,6 +19,10 @@ ul {
 
 .fw-400 {
   font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
 }
 
 .color-sec {
@@ -77,6 +85,54 @@ ul {
 .social-media-icon i{
     font-size: 2rem;
     margin: 0.45rem 0.45rem;
+}
+/*contactpage*/
+.contact-banner {
+  min-height: 330px;
+  background-image: url('./components/contactPage/programming-banner.jpg');
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=number],
+.contact-form input[type=email],
+.contact-form select,
+.contact-form textarea {
+  background-color: #AAC7E7;
+  color: white;
+}
+
+.contact-form input[type=text]::placeholder,
+.contact-form input[type=number]::placeholder,
+.contact-form input[type=email]::placeholder,
+.contact-form textarea::placeholder {
+  color: white;
+} 
+
+.contact-form textarea:focus {
+  background-color: #AAC7E7;
+  color: white;
+}
+
+.btn-send:hover {
+  background-color: #001e41;
+}
+
+.contact-banner::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:-1;
+  background:rgba(0, 40, 85, 0.3);
+}
+
+.contact-div-content {
+  background: rgba(0, 40, 85, 0.69);
 }
 
 /*responsive*/
