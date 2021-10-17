@@ -9,7 +9,7 @@ export const HomePage = () => {
             <Carousel />
 
             <div className="py-5 bg-ieee">
-                <h3 className="text-center mb-4 text-white">Novedades</h3>
+                <h3 className="text-center mb-4 text-white" style={{paddingBottom:"1rem"}}>Novedades</h3>
                 <div className="container">
                     <div className="row">
                         <EventCard />
@@ -21,7 +21,7 @@ export const HomePage = () => {
 
 
             <div className="py-5">
-                <h3 className="text-center mb-4">Nuestros Proyectos</h3>
+                <h3 className="text-center mb-4" style={{paddingBottom:"1rem"}}>Nuestros Proyectos</h3>
                 <div className="container">
                     <div className="row">
                         <EventCard />
