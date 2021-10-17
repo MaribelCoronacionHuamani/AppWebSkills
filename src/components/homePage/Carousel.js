@@ -12,13 +12,13 @@ export const Carousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={imgSlider} className="d-block w-100 img-slider" alt="..." />
+                    <img src={imgSlider} className="d-block w-100 img-slider" alt="..." style={{objectFit: "cover"}} />
                 </div>
                 <div className="carousel-item">
-                    <img src={imgSlider} className="d-block w-100 img-slider" alt="..." />
+                    <img src={imgSlider} className="d-block w-100 img-slider" alt="..." style={{objectFit: "cover"}} />
                 </div>
                 <div className="carousel-item">
-                    <img src={imgSlider} className="d-block w-100 img-slider" alt="..." />
+                    <img src={imgSlider} className="d-block w-100 img-slider" alt="..." style={{objectFit: "cover"}} />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
