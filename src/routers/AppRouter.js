@@ -4,6 +4,7 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
+import { BeneficiosAlPage } from '../components/beneficiosAlPage/BeneficiosAlPage';
 import { ContactPage } from '../components/contactPage/ContactPage';
 import { HomePage } from '../components/homePage/HomePage';
 import { Navbar } from '../components/ui/Navbar';
@@ -18,6 +19,7 @@ export const AppRouter = () => {
                 <Switch>
                     <Route exact path="/" component={HomePage} />
                     <Route exact path="/contacto" component={ContactPage} />
+                    <Route exact path="/alianzas-beneficios" component={BeneficiosAlPage} />
                     <Route component={NotFound} />
                 </Switch>
             </div>
