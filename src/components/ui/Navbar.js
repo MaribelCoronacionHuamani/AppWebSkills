@@ -8,9 +8,9 @@ export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-ieee">
             <div className="container-fluid">
-                <a className="navbar-brand text-white nb-ieee" href="#">
+                <NavLink className="navbar-brand text-white nb-ieee" exact to="/">
                     <img src={logocs} alt="ieee-cs"></img>
-                </a>
+                </NavLink>
                 <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -30,10 +30,9 @@ export const Navbar = () => {
                     <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Alianzas
                     </a>
-                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                        <li><a className="dropdown-item text-black" href="#">La U</a></li>
-                        <li><a className="dropdown-item text-black" href="#">Alianza</a></li>
-                        <li><a className="dropdown-item text-black" href="#">Criscat</a></li>
+                    <ul className="dropdown-menu bg-ieee" aria-labelledby="navbarDropdownMenuLink2">
+                        <li><NavLink className="dropdown-item text-white" exact to="/">Sponsors</NavLink></li>
+                        <li><NavLink className="dropdown-item text-white" exact to="/alianzas-beneficios">Beneficios</NavLink></li>
                     </ul>
                     </li>
                     <li className="nav-item">
@@ -51,9 +50,9 @@ export const Navbar = () => {
                 </ul>
                 
                 </div>
-                <a className="navbar-brand text-white nb-ieee" href="#">
+                <NavLink className="navbar-brand text-white nb-ieee" exact to="/">
                     <img src={logoieee} alt="ieee-cs"></img>
-                </a>
+                </NavLink>
             </div>
         </nav>
     )
