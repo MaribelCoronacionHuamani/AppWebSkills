@@ -45,6 +45,10 @@ textarea {
   width: 275px;
 }
 
+.banner-ieee {
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 93%, 53% 93%, 50% 100%, 47% 93%, 0 93%, 0 50%, 0 0);
+}
+
 /*homepage*/
 .img-slider {
   height: 400px;
