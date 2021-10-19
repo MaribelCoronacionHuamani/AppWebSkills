@@ -17,12 +17,24 @@ textarea {
   background-color: #002855;
 }
 
+.bg-ieee-2 {
+  background-color: #183464;
+}
+
+.bg-ieee-3 {
+  background-color: #405c7c;
+}
+
 .fw-400 {
   font-weight: 400;
 }
 
 .fw-700 {
   font-weight: 700;
+}
+
+.fc-benefit {
+  color: #FFA300;
 }
 
 .color-sec {
@@ -133,6 +145,12 @@ textarea {
 .contact-div-content {
   background: rgba(0, 40, 85, 0.69);
 }
+/*alianzas-beneficios-page*/
+.beneficios-container {
+  margin-bottom: 100px !important;
+}
+
+
 
 /*responsive*/
 
@@ -161,6 +179,11 @@ textarea {
   }*/
   .nb-ieee{
     width: 10rem;
+  }
+
+  .benefit-icon {
+    transition: all 300ms;
+    transform: rotate(90deg);
   }
 }
 
