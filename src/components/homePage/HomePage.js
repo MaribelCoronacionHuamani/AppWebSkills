@@ -8,9 +8,6 @@ export const HomePage = () => {
         <div>
 
             <Carousel />
-            
-
-            
             <div className="py-5 bg-ieee">
                 <h3 className="text-center mb-4 text-white">Novedades</h3>
                 <CarouselNov/>
