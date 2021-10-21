@@ -21,8 +21,8 @@ export const Navbar = () => {
                         Nosotros
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a className="dropdown-item text-black" href="#">Nosotres</a></li>
-                        <li><a className="dropdown-item text-black" href="#">Nosotris</a></li>
+                        <li><NavLink className="dropdown-item text-black" exact to="/mision-vision-valores">Mision y vision</NavLink></li>
+                        <li><NavLink className="dropdown-item text-black" exact to="/beneficios-IEEE">Beneficios IEEE</NavLink></li>
                         <li><a className="dropdown-item text-black" href="#">Nosotras</a></li>
                     </ul>
                         </li>
