@@ -135,6 +135,26 @@ textarea {
   background-color: #001e41;
 }
 
+.btn-select{
+  height: 5rem;
+  margin-top: 0.3rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.btn-select{
+  background-color: #2F85DC !important;
+  color: white !important;
+}
+
+.btn-select:hover{
+  background-color: #001e41 !important;
+}
+
+.btn-select:focus{
+  background-color: #001e41 !important;
+}
+
 .contact-banner::before {
   content:"";
   position:absolute;

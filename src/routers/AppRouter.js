@@ -8,6 +8,7 @@ import { BeneficiosAlPage } from '../components/beneficiosAlPage/BeneficiosAlPag
 import { ContactPage } from '../components/contactPage/ContactPage';
 import { HomePage } from '../components/homePage/HomePage';
 import { Navbar } from '../components/ui/Navbar';
+import { FaqsPage } from '../components/faqsPage/FaqsPage';
 import { NotFound } from '../components/ui/NotFound';
 
 export const AppRouter = () => {
@@ -20,6 +21,7 @@ export const AppRouter = () => {
                     <Route exact path="/" component={HomePage} />
                     <Route exact path="/contacto" component={ContactPage} />
                     <Route exact path="/alianzas-beneficios" component={BeneficiosAlPage} />
+                    <Route exact path="/preguntas-frecuentes" component={FaqsPage}/>
                     <Route component={NotFound} />
                 </Switch>
             </div>

@@ -45,7 +45,7 @@ export const Navbar = () => {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link text-white" href="#">FAQS</a>
+                    <NavLink className="nav-link text-white" exact to="/preguntas-frecuentes">FAQS</NavLink>
                     </li>
                 </ul>
                 
