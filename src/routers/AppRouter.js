@@ -23,7 +23,7 @@ export const AppRouter = () => {
                     <Route exact path="/" component={HomePage} />
                     <Route exact path="/contacto" component={ContactPage} />
                     <Route exact path="/alianzas-beneficios" component={BeneficiosAlPage} />
-                    <Route exact path="/faqs" component={FaqsPage} />
+                    <Route exact path="/preguntas-frecuentes" component={FaqsPage} />
                     <Route exact path="/mision-vision-valores" component={misionPage} />
                     <Route exact path="/beneficios-IEEE" component={beneficiosCsPage}/>
                     <Route component={NotFound} />
