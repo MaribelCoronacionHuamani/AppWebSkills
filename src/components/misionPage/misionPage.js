@@ -1,6 +1,8 @@
 import React from "react";
 import { ContentModelBanner } from "../ui/ContentModelBanner";
-import img from "../contactPage/programming-banner.jpg"
+import img from "../contactPage/programming-banner.jpg";
+import { MisionContainers } from "./MisionContainers";
+
 
 export const misionPage =()=>{
 return(
@@ -12,6 +14,7 @@ return(
             autor="Lyndon Johnson"
             img={img}
         />
+        <MisionContainers/>
     </div>
 )
 

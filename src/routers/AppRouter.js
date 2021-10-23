@@ -5,10 +5,10 @@ import {
     Route
 } from 'react-router-dom';
 import { BeneficiosAlPage } from '../components/beneficiosAlPage/BeneficiosAlPage';
-import { beneficiosCsPage } from '../components/beneficiosCsPage/beneficiosCsPage';
+import { beneficiosCsPage } from '../components/BeneficiosCsPage/BeneficiosCsPage';
 import { ContactPage } from '../components/contactPage/ContactPage';
 import { HomePage } from '../components/homePage/HomePage';
-import { misionPage } from '../components/misionPage/misionPage';
+import { misionPage } from '../components/misionPage/MisionPage';
 import { Navbar } from '../components/ui/Navbar';
 import { NotFound } from '../components/ui/NotFound';
 
