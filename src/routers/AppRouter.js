@@ -11,6 +11,9 @@ import { HomePage } from '../components/homePage/HomePage';
 import { misionPage } from '../components/misionPage/misionPage';
 import { Navbar } from '../components/ui/Navbar';
 import { FaqsPage } from '../components/faqsPage/FaqsPage';
+import { Novedades } from '../components/novedades/Novedades';
+import { Proyectos } from '../components/proyectos/Proyectos';
+
 import { NotFound } from '../components/ui/NotFound';
 
 export const AppRouter = () => {
@@ -26,6 +29,8 @@ export const AppRouter = () => {
                     <Route exact path="/preguntas-frecuentes" component={FaqsPage} />
                     <Route exact path="/mision-vision-valores" component={misionPage} />
                     <Route exact path="/beneficios-IEEE" component={beneficiosCsPage}/>
+                    <Route exact path="/novedad" component={Novedades} />
+                    <Route exact path="/proyecto" component={Proyectos} />
                     <Route component={NotFound} />
                 </Switch>
             </div>
