@@ -2,34 +2,34 @@ import React from 'react';
 import imgSlider from './exampleimgslider.jpg';
 import { EventCard } from './EventCard'
 
-export const CarouselNov = () => {
+export const CarouselNov = ({link}) => {
     return (
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner" style={{paddingTop:"2rem", paddingBottom:"1rem"}}>
                 <div className="carousel-item active">
                     <div className="container d-block">
                         <div className="row">
-                            <EventCard />
-                            <EventCard />
-                            <EventCard />
+                            <EventCard link={link}/>
+                            <EventCard link={link}/>
+                            <EventCard link={link}/>
                         </div>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <div className="container d-block">
                         <div className="row">
-                            <EventCard />
-                            <EventCard />
-                            <EventCard />
+                            <EventCard link={link}/>
+                            <EventCard link={link}/>
+                            <EventCard link={link}/>
                         </div>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <div className="container d-block">
                         <div className="row">
-                            <EventCard />
-                            <EventCard />
-                            <EventCard />
+                            <EventCard link={link}/>
+                            <EventCard link={link}/>
+                            <EventCard link={link}/>
                         </div>
                     </div>                    
                 </div>
