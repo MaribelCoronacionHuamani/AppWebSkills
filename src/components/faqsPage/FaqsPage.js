@@ -8,69 +8,15 @@ export const FaqsPage = () => {
 
     const modifyColor = () => {
         let $btnsSelect = document.querySelectorAll(".btn-select");
-        /*let $collapseItem, $collapseItem2;
-        let $collapseItems = document.querySelectorAll(".collapse-questions-item");*/
-
-        //let $collapseSection = document.FaqsPage.querySelectorAll(".collapse");
-
-        //console.log($collapseSection);
-        //Quiero obtener el nombre del ID al que está relacionado el BOTÓN mediante href
-        //Luego modificar el .show de cada uno de esos IDs obtenidos, esto solucionará los collapse
-
-        //Al parecer la clave está en el collapsing
-        //Agregar accordion-flush de ser necesario, para quitar los bordes
-
-        //Todas las áreas tienen collapse, el show lo tienen las que ya están activas
-        //Las áreas cuando están ya a activadas tienen la clase collapse y la clase show y el botón no tiene ninguna clase extra
-        //Al desactivar el botón, este se agrega a sí mismo la clase collapsed y al área afectada le agrega collapsing quitándole collapse
-        //Luego el botón mantiene la clase collapsed, pero el área que fue afectada se quita el collapsing y se pone el collapse
-        //El collapsing parece ser solo transitorio
-        //El collapsed se mantiene, aún cuando se interactúa con otros botones
-
-        /*La posible solución sería escuchando el último click sobre el elemento*/ 
-
+        
         for (let i = 0; i < $btnsSelect.length; i++){
-            if ($btnsSelect[i].getAttribute("aria-expanded") === "true") {
-                //console.log("Cuando se activan:");
-    
+            if ($btnsSelect[i].getAttribute("aria-expanded") === "true") { 
                 $btnsSelect[i].classList.add("btn-select-color");
-
-                /*
-                $collapseItem = document.getElementById($btnsSelect[i].getAttribute("href"));
-
-                console.log($btnsSelect[i]);
-                console.log($collapseItem);
-                $collapseItem.classList.add("show");
-
-                
-                for (let j = 0; j < $btnsSelect.length; j++){
-                    if (j !== i && $btnsSelect[j].getAttribute("aria-expanded") === "true") {
-
-                        $btnsSelect[j].setAttribute("aria-expanded", "false");
-                        $btnsSelect[j].classList.add("collapsed");
-
-                        $collapseItems[j].classList.remove(["collapse", "show"]);
-                        $collapseItems[j].classList.add("collapsing");
-
-                        $collapseItems[j].classList.remove("collapsing");
-                        $collapseItems[j].classList.add("collapse");
-
-                    }
-                }*/
-                
               
             }
 
             if ($btnsSelect[i].getAttribute("aria-expanded") === "false") {
                 $btnsSelect[i].classList.remove("btn-select-color");
-
-                /*console.log("Cuando se desactivan");
-
-                $collapseItem = document.getElementById($btnsSelect[i].getAttribute("href"));
-
-                console.log($btnsSelect[i]);
-                console.log($collapseItem);*/
-                
 
                 
             }
@@ -92,7 +38,8 @@ export const FaqsPage = () => {
 
             <h3>Accordion expandido solucionado</h3>
             <h3>Falta solucionar: Cuando una de las secciones se expande, otro se debe acortar
-                La posible solución es el .show raaa
+                La posible solución es el .show raaa.
+                Probablemente la solución sea meterle accordion
             </h3>
 
             <div className="w-100" style={{minHeight:"85vh"}}>
@@ -104,7 +51,7 @@ export const FaqsPage = () => {
                                     <a className="nav-link btn-select btn-select-color" href="collapseExample1" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="true" aria-controls="collapseExample1">Tema de Pregunta 1</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link btn-select" href="collapseExample2" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Tema de Pregunta 2</a>
+                                    <a className="nav-link btn-select"href="collapseExample2" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Tema de Pregunta 2</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link btn-select" href="collapseExample3" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Tema de Pregunta 3</a>
