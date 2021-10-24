@@ -10,7 +10,7 @@ export const Footer = () => {
                 <li><i className="fab fa-instagram fs-1"></i></li>
             </ul>
         </footer>*/
-        <footer className="bg-ieee mt-5 py-5">
+        <footer className="bg-ieee mt-0 py-5">
             <div className="icons-container">
                 <a href="#" className="social-media-icon"><i className='bx bxl-facebook'></i></a>
                 <a href="#" className="social-media-icon"><i className='bx bxl-google'></i></a>

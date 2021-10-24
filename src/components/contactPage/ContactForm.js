@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ContactForm = () => {
     return (
-        <form className="mt-4 contact-form">
+        <form className="mt-4 contact-form mb-5">
             <div className="d-md-flex">
                 <input 
                     type="text"
