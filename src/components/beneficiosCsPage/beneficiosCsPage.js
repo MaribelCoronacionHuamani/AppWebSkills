@@ -6,7 +6,7 @@ import { MisionContainers } from '../misionPage/MisionContainers';
 import { BeneficiosCSConatainer } from './BeneficiosCSContainers';
 
 
-export const beneficiosCsPage =()=>{
+export const BeneficiosCsPage =()=>{
         return (
             <div>
                 <ContentModelBanner

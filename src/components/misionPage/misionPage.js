@@ -4,7 +4,7 @@ import img from "../contactPage/programming-banner.jpg";
 import { MisionContainers } from "./MisionContainers";
 
 
-export const misionPage =()=>{
+export const MisionPage =()=>{
 return(
     <div>
         <ContentModelBanner

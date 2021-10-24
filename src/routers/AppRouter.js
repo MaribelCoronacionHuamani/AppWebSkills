@@ -5,10 +5,10 @@ import {
     Route
 } from 'react-router-dom';
 import { BeneficiosAlPage } from '../components/beneficiosAlPage/BeneficiosAlPage';
-import { beneficiosCsPage } from '../components/BeneficiosCsPage/BeneficiosCsPage';
+import { BeneficiosCsPage } from '../components/beneficiosCsPage/BeneficiosCsPage';
 import { ContactPage } from '../components/contactPage/ContactPage';
 import { HomePage } from '../components/homePage/HomePage';
-import { misionPage } from '../components/misionPage/MisionPage';
+import { MisionPage } from '../components/misionPage/MisionPage';
 import { Navbar } from '../components/ui/Navbar';
 import { FaqsPage } from '../components/faqsPage/FaqsPage';
 import { Novedades } from '../components/novedades/Novedades';
@@ -27,8 +27,8 @@ export const AppRouter = () => {
                     <Route exact path="/contacto" component={ContactPage} />
                     <Route exact path="/alianzas-beneficios" component={BeneficiosAlPage} />
                     <Route exact path="/preguntas-frecuentes" component={FaqsPage} />
-                    <Route exact path="/mision-vision-valores" component={misionPage} />
-                    <Route exact path="/beneficios-IEEE" component={beneficiosCsPage}/>
+                    <Route exact path="/mision-vision-valores" component={MisionPage} />
+                    <Route exact path="/beneficios-IEEE" component={BeneficiosCsPage}/>
                     <Route exact path="/novedad" component={Novedades} />
                     <Route exact path="/proyecto" component={Proyectos} />
                     <Route component={NotFound} />
