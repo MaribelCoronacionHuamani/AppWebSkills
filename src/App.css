@@ -148,13 +148,18 @@ textarea {
   color: white !important;
 }
 
+/*
 .btn-select:hover{
   background-color: #001e41 !important;
-}
+}*/
 
+.btn-select-color{
+  background-color:#001e41 !important ;
+}
+/*
 .btn-select:focus{
   background-color: #001e41 !important;
-}
+}*/
 
 .contact-banner::before {
   content:"";
@@ -163,7 +168,7 @@ textarea {
   left:0;
   right:0;
   bottom:0;
-  z-index:-1;
+  z-index:-1;   
   background:rgba(0, 40, 85, 0.3);
 }
 
