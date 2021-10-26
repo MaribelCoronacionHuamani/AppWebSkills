@@ -7,10 +7,10 @@ export const QuestionAccordion = ({ question, answer, idQuestion, idAnswer, idPa
             <div className="accordion-item">
                 <h2 className="accordion-header" id={idQuestion}>
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#"+idAnswer} aria-expanded="false" aria-controls={idAnswer}>
-                        {question}
+                        {question} <i class="fa-solid fa-square-plus"></i>
                     </button>
                 </h2>
-                <div id={idAnswer} className="accordion-collapse collapse" aria-labelledby={idQuestion} data-bs-parent={"#"+idParent}>
+                <div id={idAnswer} className="accordion-collapse collapse accordion-item-answer" aria-labelledby={idQuestion} data-bs-parent={"#"+idParent}>
                     <div class="accordion-body">
                         {answer}
                     </div>
