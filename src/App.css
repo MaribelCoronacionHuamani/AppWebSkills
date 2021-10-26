@@ -25,6 +25,7 @@ textarea {
   background-color: #405c7c;
 }
 
+
 .fw-400 {
   font-weight: 400;
 }
@@ -147,13 +148,18 @@ textarea {
   color: white !important;
 }
 
+/*
 .btn-select:hover{
   background-color: #001e41 !important;
-}
+}*/
 
+.btn-select-color{
+  background-color:#001e41 !important ;
+}
+/*
 .btn-select:focus{
   background-color: #001e41 !important;
-}
+}*/
 
 .contact-banner::before {
   content:"";
@@ -162,18 +168,138 @@ textarea {
   left:0;
   right:0;
   bottom:0;
-  z-index:-1;
+  z-index:-1;   
   background:rgba(0, 40, 85, 0.3);
 }
 
 .contact-div-content {
   background: rgba(0, 40, 85, 0.69);
 }
+
 /*alianzas-beneficios-page*/
 .beneficios-container {
   margin-bottom: 100px !important;
 }
 
+/*Novedades-Page*/
+.novedades, .proyectos{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.novedades-titulo, .proyectos-titulo{
+  
+  width: 800px;
+  margin: 10px 0;
+
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #00629B;
+}
+.novedades-descripcion, .proyectos-descripcion{
+  
+  width: 800px;
+  
+  margin: 10px 0;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #00629B;
+}
+.novedades-fecha, .proyectos-fecha{
+  
+  width: 800px;
+  
+  margin: 10px 0;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #8C8C8C;
+}
+.novedades-baner{
+  display:block;
+  
+}
+.novedades-baner__imagen{
+  
+  width: 800px;
+  height: 434px;
+  left: 112px;
+  top: 330px;
+}
+.novedades-baner__descripcion{
+  width: 800px;
+  height: 30px;
+  left: 112px;
+  top: 764px;
+
+  background: rgba(0, 98, 155, 0.8);
+
+  font-family: Montserrat;
+  
+  font-size: 18px;
+  line-height: 150%;
+  text-align:center;
+
+  color: #FFFFFF;
+}
+
+.novedades-especificacionimagen, .proyectos-parrafo{
+  
+  width: 800px;
+  margin: 10px 0;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+/*Proyectos-Page*/
+
+.proyectos-subtitulo{
+  
+  width: 800px;
+  margin: 10px 0;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #FFA300;
+}
+.contenedor-baners{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap: wrap;
+
+  
+  width: 800px;
+}
+.proyectos-baner__imagen{
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+}
+.proyectos-baner__descripcion{
+  width: 250px;
+  padding: 0 20px;
+}
 
 /*Nuestras direcciones page*/
 .name-direc{
@@ -203,6 +329,35 @@ textarea {
   /*h5 {
     font-size: 15px;
   }*/
+  .novedades-titulo, .proyectos-titulo{
+    width: 600px;
+    
+  }
+  .novedades-descripcion, .proyectos-descripcion{
+    width: 600px;
+    
+  }
+  .novedades-fecha, .proyectos-fecha{
+    width: 600px;
+  }
+  .novedades-baner__imagen{
+    width: 600px;
+  }
+  .novedades-baner__descripcion{
+    width: 600px;
+    
+  }
+  .novedades-especificacionimagen, .proyectos-parrafo{
+    width: 600px;
+    
+  }
+  .proyectos-subtitulo{
+    width: 600px;
+    
+  }
+  .contenedor-baners{
+    width: 600px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -217,22 +372,111 @@ textarea {
     transition: all 300ms;
     transform: rotate(90deg);
   }
+
+  .nb-ieee{
+    width: 10rem;
+  }
+
+  .benefit-icon {
+    transition: all 300ms;
+    transform: rotate(90deg);
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
   /*h5 {
     font-size: 5px !important;
   }*/
   .icons-footer {
     width: 75% !important;
   }
+
+  .contenedor-baners{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+  }
+
+
+  .novedades-titulo, .proyectos-titulo{
+    width: 400px;
+    
+  }
+  .novedades-descripcion, .proyectos-descripcion{
+    width: 400px;
+    
+  }
+  .novedades-fecha, .proyectos-fecha{
+    width: 400px;
+    
+    
+  }
+  .novedades-baner__imagen{
+    width: 400px;
+    
+  }
+  .novedades-baner__descripcion{
+    width: 400px;
+    
+  }
+  .novedades-especificacionimagen, .proyectos-parrafo{
+    width: 400px;
+    
+  }
+  .proyectos-subtitulo{
+    width: 400px;
+    
+  }
+  .contenedor-baners{
+    width: 400px;
+
+    scroll-snap-align: center;
+  }
 }
 
-@media (max-width: 375px){
+@media (max-width: 411px){
   /*.nb-ieee img{
     width: 6rem;
   }*/
   .nb-ieee{
     text-align: left;
+  }
+
+  .novedades-titulo, .proyectos-titulo{
+    width: 300px;
+    
+  }
+  .novedades-descripcion, .proyectos-descripcion{
+    width: 300px;
+    
+  }
+  .novedades-fecha, .proyectos-fecha{
+    width: 300px;
+    
+  }
+  .novedades-baner__imagen{
+    width: 300px;
+    
+  }
+  .novedades-baner__descripcion{
+    width: 300px;
+    
+  }
+  .novedades-especificacionimagen, .proyectos-parrafo{
+    width: 300px;
+    
+  }
+  .proyectos-subtitulo{
+    width: 300px;
+    
+  }
+  .contenedor-baners{
+    width: 300px;
   }
 }

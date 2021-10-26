@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-export const EventCard = () => {
+export const EventCard = ({link}) => {
     return (
 
         <div className="tarjeta col-lg-3 mx-auto bg-white mt-5 mt-lg-0">
@@ -17,7 +18,16 @@ export const EventCard = () => {
                         I want to talk about the hard stuff people wonder about but maybe are embarassed
                     </p>
                 </div>
-                <button className="btn btn-rm btn-outline-primary w-50 float-end mb-2">Leer más</button>
+                
+                <NavLink
+                    exact
+                    to={link}
+                >
+                    <button className="btn btn-rm btn-outline-primary w-50 float-end mb-2" >
+                        Leer mas
+                    </button>    
+                </NavLink>
+                
             </div>
         </div>
     )
