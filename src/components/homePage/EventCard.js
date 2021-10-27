@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import llamita from '../../assets/llamita.jpg'
 
 export const EventCard = ({link}) => {
     return (
@@ -9,7 +10,7 @@ export const EventCard = ({link}) => {
                 18 OCT
             </div>
             <div>
-                <img src="https://via.placeholder.com/250x180" alt="example" />
+                <img src={llamita} alt="example" style={{objectFit:"cover", width:"100%", aspectRatio:"25/18"}} />
             </div>
             <div className="p-2">
                 <div>

@@ -209,7 +209,7 @@ textarea {
 
 .novedades-titulo, .proyectos-titulo{
   
-  width: 800px;
+  width: 100%;
   margin: 10px 0;
 
   font-family: Montserrat;
@@ -235,7 +235,7 @@ textarea {
 }
 .novedades-fecha, .proyectos-fecha{
   
-  width: 800px;
+  width: 100%;
   
   margin: 10px 0;
 
@@ -246,21 +246,16 @@ textarea {
   color: #8C8C8C;
 }
 .novedades-baner{
-  display:block;
+  width: 100%;
   
 }
 .novedades-baner__imagen{
-  
-  width: 800px;
-  height: 434px;
-  left: 112px;
-  top: 330px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 .novedades-baner__descripcion{
-  width: 800px;
-  height: 30px;
-  left: 112px;
-  top: 764px;
+
 
   background: rgba(0, 98, 155, 0.8);
 
@@ -276,7 +271,6 @@ textarea {
 .novedades-especificacionimagen, .proyectos-parrafo{
   
   width: 800px;
-  margin: 10px 0;
 
   font-family: Montserrat;
   font-size: 18px;
@@ -347,28 +341,8 @@ textarea {
   /*h5 {
     font-size: 15px;
   }*/
-  .novedades-titulo, .proyectos-titulo{
-    width: 600px;
-    
-  }
-  .novedades-descripcion, .proyectos-descripcion{
-    width: 600px;
-    
-  }
-  .novedades-fecha, .proyectos-fecha{
-    width: 600px;
-  }
-  .novedades-baner__imagen{
-    width: 600px;
-  }
-  .novedades-baner__descripcion{
-    width: 600px;
-    
-  }
-  .novedades-especificacionimagen, .proyectos-parrafo{
-    width: 600px;
-    
-  }
+
+
   .proyectos-subtitulo{
     width: 600px;
     
@@ -428,32 +402,6 @@ textarea {
     scroll-snap-type: proximity;
   }
 
-
-  .novedades-titulo, .proyectos-titulo{
-    width: 400px;
-    
-  }
-  .novedades-descripcion, .proyectos-descripcion{
-    width: 400px;
-    
-  }
-  .novedades-fecha, .proyectos-fecha{
-    width: 400px;
-    
-    
-  }
-  .novedades-baner__imagen{
-    width: 400px;
-    
-  }
-  .novedades-baner__descripcion{
-    width: 400px;
-    
-  }
-  .novedades-especificacionimagen, .proyectos-parrafo{
-    width: 400px;
-    
-  }
   .proyectos-subtitulo{
     width: 400px;
     
@@ -473,30 +421,6 @@ textarea {
     text-align: left;
   }
 
-  .novedades-titulo, .proyectos-titulo{
-    width: 300px;
-    
-  }
-  .novedades-descripcion, .proyectos-descripcion{
-    width: 300px;
-    
-  }
-  .novedades-fecha, .proyectos-fecha{
-    width: 300px;
-    
-  }
-  .novedades-baner__imagen{
-    width: 300px;
-    
-  }
-  .novedades-baner__descripcion{
-    width: 300px;
-    
-  }
-  .novedades-especificacionimagen, .proyectos-parrafo{
-    width: 300px;
-    
-  }
   .proyectos-subtitulo{
     width: 300px;
     
