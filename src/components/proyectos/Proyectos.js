@@ -37,7 +37,7 @@ export const Proyectos = () => {
 
                 <div className="my-5 w-100 d-flex justify-content-center">
                     <div className="carousel-proyecto">
-                        <Carousel/>
+                        <Carousel/> 
                     </div>
                     
                 </div>
