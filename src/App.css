@@ -206,11 +206,21 @@ textarea {
   justify-content: center;
 }
 
+.proyecto-banner{
+  position: relative;
+  height: 20rem;
+}
+
+.img-bg-banner{ 
+  position: absolute;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  z-index: -1;
+}
 
 .novedades-titulo, .proyectos-titulo{
-  
-  width: 100%;
-  margin: 10px 0;
+
 
   font-family: Montserrat;
   font-weight: bold;
@@ -223,7 +233,6 @@ textarea {
 }
 .novedades-descripcion, .proyectos-descripcion{
   
-  width: 800px;
   
   margin: 10px 0;
 
@@ -270,7 +279,7 @@ textarea {
 
 .novedades-especificacionimagen, .proyectos-parrafo{
   
-  width: 800px;
+  width: 100%;
 
   font-family: Montserrat;
   font-size: 18px;
@@ -281,10 +290,11 @@ textarea {
 
 /*Proyectos-Page*/
 
+
 .proyectos-subtitulo{
   
-  width: 800px;
-  margin: 10px 0;
+  width: 100%;
+  margin-top: 0.5rem;
 
   font-family: Montserrat;
   font-style: normal;
@@ -300,7 +310,6 @@ textarea {
   justify-content:center;
   flex-wrap: wrap;
 
-  
   width: 800px;
 }
 .proyectos-baner__imagen{
@@ -311,6 +320,10 @@ textarea {
 .proyectos-baner__descripcion{
   width: 250px;
   padding: 0 20px;
+}
+
+.carousel-proyecto{
+    width: 30rem;
 }
 
 /*Nuestras direcciones page*/
@@ -342,11 +355,10 @@ textarea {
     font-size: 15px;
   }*/
 
-
-  .proyectos-subtitulo{
-    width: 600px;
-    
+  .proyecto-content{
+    margin-top: 2rem;
   }
+
   .contenedor-baners{
     width: 600px;
   }
@@ -356,6 +368,10 @@ textarea {
   /*h5 {
     font-size: 10px !important;
   }*/
+  .proyecto-content{
+    margin-top: 2.5rem;
+  }
+
   .nb-ieee{
     width: 10rem;
   }
@@ -390,6 +406,14 @@ textarea {
     width: 75% !important;
   }
 
+  .carousel-proyecto{
+    width: 25rem;
+  }
+
+  .proyecto-content{
+    margin-top: 4rem;
+  }
+
   .contenedor-baners{
     height: 400px;
     display: flex;
@@ -402,15 +426,23 @@ textarea {
     scroll-snap-type: proximity;
   }
 
-  .proyectos-subtitulo{
-    width: 400px;
-    
-  }
   .contenedor-baners{
     width: 400px;
 
     scroll-snap-align: center;
   }
+}
+
+@media (max-width: 453px){
+    .proyecto-banner, .img-bg-banner{
+    height: 25rem;
+  }
+
+  .carousel-proyecto{
+    width: 95%;
+  }
+
+
 }
 
 @media (max-width: 411px){
@@ -421,11 +453,13 @@ textarea {
     text-align: left;
   }
 
-  .proyectos-subtitulo{
-    width: 300px;
-    
-  }
   .contenedor-baners{
     width: 300px;
   }
+}
+
+@media (max-width: 355px){
+  .proyecto-banner, .img-bg-banner{
+    height: 32rem;
+  } 
 }
