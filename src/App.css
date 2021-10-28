@@ -307,8 +307,37 @@ textarea {
 }
 .tittle-direc{
   font-size: 2.5rem;
-  
+  margin: 0 0 4rem 0;
 }
+
+.sombra-texto {
+  padding: 2rem;
+  margin-bottom: 3rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+  -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+  box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+}
+
+.contenedor-perfil-direc{
+    margin: 8rem 0 10rem 2rem;
+    /*max-width: 900px;*/
+}
+
+.contenedor-informacion{
+  padding: 2rem;
+}
+
+/*Alianzas-informacion*/
+.background-alianzas{
+  width: 100%;
+  height: auto;
+  background-size: auto;
+  background-image: url(./components/alianzasPage/background.png);
+
+}
+
 
 /*responsive*/
 

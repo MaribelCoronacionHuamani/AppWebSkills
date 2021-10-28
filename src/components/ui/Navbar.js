@@ -31,7 +31,7 @@ export const Navbar = () => {
                         Alianzas
                     </a>
                     <ul className="dropdown-menu bg-ieee" aria-labelledby="navbarDropdownMenuLink2">
-                        <li><NavLink className="dropdown-item text-white" exact to="/">Sponsors</NavLink></li>
+                        <li><NavLink className="dropdown-item text-white" exact to="/alianzas-cs">Sponsors</NavLink></li>
                         <li><NavLink className="dropdown-item text-white" exact to="/alianzas-beneficios">Beneficios</NavLink></li>
                     </ul>
                     </li>
