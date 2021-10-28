@@ -53,8 +53,8 @@ export const FaqsPage = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-sm-8" id="raaa">
-                            <div className="collapse show collapse-questions-item" id="collapseExample1" data-bs-parent="#raaa">
+                        <div className="col-sm-8" id="questions-topic">
+                            <div className="collapse show collapse-questions-item" id="collapseExample1" data-bs-parent="#questions-topic">
                                     <QuestionAccordion
                                         question="¿Hola Bola? T1"
                                         answer="lorem lorem lorem gaa el que no salta se kcha al kbro" idQuestion="question1"
@@ -81,7 +81,7 @@ export const FaqsPage = () => {
                                     />
                             
                             </div>
-                            <div className="collapse collapse-questions-item" id="collapseExample2" data-bs-parent="#raaa">
+                            <div className="collapse collapse-questions-item" id="collapseExample2" data-bs-parent="#questions-topic">
                             
                                     <QuestionAccordion
                                         question="¿Hola Bola? T2"
@@ -109,7 +109,7 @@ export const FaqsPage = () => {
                                     />
                             
                             </div>
-                            <div className="collapse collapse-questions-item" id="collapseExample3" data-bs-parent="#raaa">
+                            <div className="collapse collapse-questions-item" id="collapseExample3" data-bs-parent="#questions-topic">
                             
                                     <QuestionAccordion
                                         question="¿Hola Bola? T3"
@@ -137,7 +137,7 @@ export const FaqsPage = () => {
                                     />
                                 
                             </div>
-                            <div className="collapse collapse-questions-item" id="collapseExample4" data-bs-parent="#raaa">
+                            <div className="collapse collapse-questions-item" id="collapseExample4" data-bs-parent="#questions-topic">
                                 
                                     <QuestionAccordion
                                         question="¿Hola Bola? T4"

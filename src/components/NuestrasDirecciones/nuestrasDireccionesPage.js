@@ -4,7 +4,7 @@ import img from "../contactPage/programming-banner.jpg"
 import llama from "../NuestrasDirecciones/llama.jpg";
 
 
-export const nuestrasDireccionesPage =()=>{
+export const NuestrasDireccionesPage =()=>{
 return(
     <div>
         <ContentModelBanner
