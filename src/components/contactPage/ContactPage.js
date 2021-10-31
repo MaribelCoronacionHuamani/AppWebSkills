@@ -7,7 +7,7 @@ import imgTeam from '../../assets/team-building.png';
 
 export const ContactPage = () => {
     return (
-        <div style={{backgroundColor:"rgba(0, 98, 155, 0.8)"}}>
+        <div style={{backgroundColor:"rgb(51, 129, 175)"}}>
             <ContentModelBanner 
                 title="Contáctanos y forma parte de nuestro equipo"
                 p="Participa como empresa sponsor o aliada, formando parte de algún proyecto nuestro, siendo miembro de la organización o siguiendo nuestros eventos de cerca"

@@ -34,7 +34,7 @@ export const Proyectos = () => {
                 <p className="proyectos-parrafo">Acá se puede hacer sub-divisiones. Poner todo lo que se vino realizando para llevar a cabo el proyecto. Los patrocinadores, las fechas importantes, los cronogramas, etc. Acá se puede hacer sub-divisiones. Poner todo lo que se vino realizando para llevar a cabo el proyecto. Los patrocinadores, las fechas importantes, los cronogramas, etc. Acá se puede hacer sub-divisiones. Poner todo lo que se vino realizando para llevar a cabo el proyecto. Los patrocinadores, las fechas importantes, los cronogramas, etc. </p>
                 <div className="my-5 w-100 d-flex justify-content-center">
                     <div className="carousel-proyecto">
-                        <Carousel/>
+                        <Carousel/> 
                     </div>
                     
                 </div>

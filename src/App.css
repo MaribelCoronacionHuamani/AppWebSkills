@@ -55,6 +55,15 @@ textarea {
   height: 400px;
 }
 
+#carouselExampleControls2, #carouselExampleControls3 {
+  display: none;
+}
+
+#carouselProyectos{
+    display: none;
+}
+
+
 .fecha-tarjeta {
   margin-left: 10px;
   text-align: center;
@@ -130,6 +139,11 @@ textarea {
 .contact-form textarea:focus {
   background-color: #AAC7E7;
   color: white;
+}
+
+.contact-form-item{
+  background-color: rgb(51, 129, 175) !important;
+  color:white !important;
 }
 
 .btn-send:hover {
@@ -391,6 +405,15 @@ textarea {
   .contenedor-baners{
     width: 600px;
   }
+
+
+  #carouselExampleControls1, #carouselExampleControls3 {
+  display: none;
+  }
+
+  #carouselExampleControls2{
+  display: inherit;
+  }
 }
 
 @media (max-width: 768px) {
@@ -403,6 +426,22 @@ textarea {
 
   .nb-ieee{
     width: 10rem;
+  }
+
+  #carouselExampleControls1, #carouselExampleControls2 {
+  display: none;
+  }
+
+  #carouselExampleControls3{
+  display: inherit;
+  }
+
+  #carouselProyectos{
+    display: inherit;
+  }
+
+  #containerProyectos{
+    display: none;
   }
 
   .benefit-icon {
