@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../../App.css';
 import logocs from '../../assets/logocs.png';
-import logoieee from '../../assets/logoieee.png';
+import logoieeesm from '../../assets/logoieeesm.png';
 
 export const Navbar = () => {
     return (
@@ -19,22 +19,26 @@ export const Navbar = () => {
                     <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Nosotros
-                    </a>
+                    </a> 
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><NavLink className="dropdown-item text-black" exact to="/mision-vision-valores">Mision y vision</NavLink></li>
                         <li><NavLink className="dropdown-item text-black" exact to="/beneficios-IEEE">Beneficios IEEE</NavLink></li>
                         <li><NavLink className="dropdown-item text-black" exact to="/nuestras-direciones" >Nuestras direcciones</NavLink></li>
                     </ul>
                         </li>
+                    
+                        
                     <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Alianzas
-                    </a>
-                    <ul className="dropdown-menu bg-ieee" aria-labelledby="navbarDropdownMenuLink2">
-                        <li><NavLink className="dropdown-item text-white" exact to="/">Sponsors</NavLink></li>
-                        <li><NavLink className="dropdown-item text-white" exact to="/alianzas-beneficios">Beneficios</NavLink></li>
+                    </a>    
+                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                        <li><NavLink className="dropdown-item text-black" exact to="/">Sponsors</NavLink></li>
+                        <li><NavLink className="dropdown-item text-black" exact to="/alianzas-beneficios">Beneficios</NavLink></li>
                     </ul>
-                    </li>
+                        </li>
+                        
+
                     <li className="nav-item">
                         <NavLink
                             className="nav-link active text-white"
@@ -44,6 +48,8 @@ export const Navbar = () => {
                             Contáctanos
                         </NavLink>
                     </li>
+                    
+                        
                     <li className="nav-item">
                     <NavLink className="nav-link text-white" exact to="/preguntas-frecuentes">FAQS</NavLink>
                     </li>
@@ -51,7 +57,7 @@ export const Navbar = () => {
                 
                 </div>
                 <NavLink className="navbar-brand text-white nb-ieee" exact to="/">
-                    <img src={logoieee} alt="ieee-cs"></img>
+                    <img src={logoieeesm} alt="ieee-cs-sm"></img>
                 </NavLink>
             </div>
         </nav>
