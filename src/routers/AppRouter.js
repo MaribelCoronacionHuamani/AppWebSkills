@@ -14,9 +14,8 @@ import { NuestrasDireccionesPage } from '../components/NuestrasDirecciones/Nuest
 import { Novedades } from '../components/novedades/Novedades';
 import { Proyectos } from '../components/proyectos/Proyectos';
 import { BeneficiosCsPage } from '../components/beneficiosCsPage/BeneficiosCsPage';
+import { AlianzasCsPage } from '../components/alianzasPage/AlianzasCsPage';
 import { NotFound } from '../components/ui/NotFound';
-
-
 
 export const AppRouter = () => {
     return (
@@ -36,6 +35,10 @@ export const AppRouter = () => {
 
                     <Route exact path="/mision-vision-valores" component={MisionPage} />
                     <Route exact path="/beneficios-IEEE" component={BeneficiosCsPage}/>
+                    <Route exact path="/mision-vision-valores" component={MisionPage} />
+                    
+                    <Route exact path="/alianzas-cs" component={AlianzasCsPage }/>
+                    
                     <Route exact path="/novedad" component={Novedades} />
                     <Route exact path="/proyecto" component={Proyectos} />
 
