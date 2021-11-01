@@ -11,6 +11,7 @@ export const MisionContainers=()=>{
                 orden="0"
                 bg1="#183464"
             />
+            
             <InfoContainer
                 title="Visión"
                 content="Lorem ipsum dolor sit amet, consectetur adispiscing elit."

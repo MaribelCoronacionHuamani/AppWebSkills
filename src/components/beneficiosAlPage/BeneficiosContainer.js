@@ -1,33 +1,28 @@
 import React from 'react'
 import { BeneficioContainer } from './BeneficioContainer'
-
+import foto from '../../assets/team-building.png'
 export const BeneficiosContainer = () => {
     return (
         <div>
-            <BeneficioContainer 
-                title="Beneficio 1"
-                content="Lorem ipsum dolor sit amet, consectetur adispiscing elit."
-                bg1="#183464"
-                bg2="#405c7c"
+            <BeneficioContainer
+                title="Ramas estudiantiles y grupos de afinidad"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at laoreet libero. Fusce non nulla ultricies, efficitur elit scelerisque, maximus nulla."
+                img={foto}
             />
-            <BeneficioContainer 
-                title="Beneficio 2"
-                content="Lorem ipsum dolor sit amet, consectetur adispiscing elit."
-                bg1="#002855"
-                bg2="#183464"
-
+            <BeneficioContainer
+                title="Fondos y Premios"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at laoreet libero. Fusce non nulla ultricies, efficitur elit scelerisque, maximus nulla."            
+                img={foto}
             />
-            <BeneficioContainer 
-                title="Beneficio 3"
-                content="Lorem ipsum dolor sit amet, consectetur adispiscing elit."
-                bg1="#183464"
-                bg2="#405c7c"
+            <BeneficioContainer
+                title="Eventos"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at laoreet libero. Fusce non nulla ultricies, efficitur elit scelerisque, maximus nulla."            
+                img={foto}
             />
-            <BeneficioContainer 
-                title="Beneficio 4"
-                content="Lorem ipsum dolor sit amet, consectetur adispiscing elit."
-                bg1="#002855"
-                bg2="#183464"
+            <BeneficioContainer
+                title="Mentoría y apoyo educativo"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at laoreet libero. Fusce non nulla ultricies, efficitur elit scelerisque, maximus nulla."            
+                img={foto}
             />
         </div>
     )

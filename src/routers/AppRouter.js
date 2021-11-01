@@ -7,13 +7,13 @@ import {
 import { BeneficiosAlPage } from '../components/beneficiosAlPage/BeneficiosAlPage';
 import { ContactPage } from '../components/contactPage/ContactPage';
 import { HomePage } from '../components/homePage/HomePage';
-import { MisionPage } from '../components/misionPage/MisionPage';
+import { MisionPage } from '../components/misionPage/misionPage';
 import { Navbar } from '../components/ui/Navbar';
 import { FaqsPage } from '../components/faqsPage/FaqsPage';
-import { NuestrasDireccionesPage } from '../components/NuestrasDirecciones/NuestrasDireccionesPage';
+import { NuestrasDireccionesPage } from '../components/NuestrasDirecciones/nuestrasDireccionesPage';
 import { Novedades } from '../components/novedades/Novedades';
 import { Proyectos } from '../components/proyectos/Proyectos';
-import { BeneficiosCsPage } from '../components/beneficiosCsPage/BeneficiosCsPage';
+import { BeneficiosCsPage } from '../components/BeneficiosCsPage/beneficiosCsPage';
 import { AlianzasCsPage } from '../components/alianzasPage/AlianzasCsPage';
 import { NotFound } from '../components/ui/NotFound';
 
